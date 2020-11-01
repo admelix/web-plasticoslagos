@@ -5,22 +5,19 @@
 
 <div class="container">
     <div class="row">
-        <div class="col-sm">
-            <div class="card" style="width: 18rem" data-toggle=" lightbox">
-                <!-- miniatura -->
-                <a href="/productos" data-toggle="lightbox">
-                    <!-- imagen grande -->
-                    <img src="assets/img/estanque1.jpg" class="img-fluid">
-                </a>
-                <!-- <a href=""><img src="assets/img/estanque1.jpg" class="card-img-top img-fluid" alt="..."></a> -->
-                <!-- src="https://unsplash.it/600.jpg?image=251" class="img-fluid" -->
+        <div class="col">
+            <div class="card" style="width: 18rem">
+                <img src="assets/img/estanque1.jpg" class="img-fluid">
             </div>
         </div>
-        <div class="col-sm card-body">
+        <div class="col">
             <div>
-                <!-- <div class="card-body"> -->
                 <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat deserunt aut, enim odio illo pariatur velit necessitatibus dolores eos atque error doloribus optio ad saepe laudantium tempore. Praesentium, commodi corrupti.</p>
             </div>
         </div>
     </div>
+</div>
+<div class="container">
+    <br>
+    <ngx-gallery [options]="galleryOptions" [images]="galleryImages"></ngx-gallery>
 </div>

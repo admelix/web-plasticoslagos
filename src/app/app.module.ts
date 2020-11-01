@@ -11,6 +11,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { QuienesSomosComponent } from './components/quienes-somos/quienes-somos.component';
 import { ServiciosComponent } from './components/servicios/servicios.component';
+import { NgxGalleryModule } from 'ngx-gallery-9';
+
 
 @NgModule({
   declarations: [
@@ -26,7 +28,9 @@ import { ServiciosComponent } from './components/servicios/servicios.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgxGalleryModule
+  
   ],
   providers: [],
   bootstrap: [AppComponent]
